@@ -1,6 +1,6 @@
 local M = {
   "nvim-treesitter/nvim-treesitter",
-  event = "BufReadPost",
+  build = ":TSUpdate",
   dependencies = {
     {
       "JoosepAlviste/nvim-ts-context-commentstring",
