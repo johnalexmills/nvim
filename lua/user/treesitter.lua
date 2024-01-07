@@ -1,16 +1,6 @@
 local M = {
   "nvim-treesitter/nvim-treesitter",
   build = ":TSUpdate",
-  dependencies = {
-    {
-      "JoosepAlviste/nvim-ts-context-commentstring",
-      event = "VeryLazy",
-    },
-    {
-      "nvim-tree/nvim-web-devicons",
-      event = "VeryLazy",
-    },
-  },
 }
 function M.config()
   local treesitter = require "nvim-treesitter"
