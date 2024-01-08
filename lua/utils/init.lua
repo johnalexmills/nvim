@@ -5,7 +5,8 @@ M.servers = {
   "bashls",
   "jsonls",
   "yamlls",
-  "pylsp",
+  -- "pylsp",
+  "pyright",
   "terraformls",
 }
 
